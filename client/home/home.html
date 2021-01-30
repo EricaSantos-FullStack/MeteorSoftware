@@ -1,0 +1,67 @@
+<template name="home">
+
+    <!-- <link rel="stylesheet" href="./LIB/bootstrap.min.css"> -->
+    
+    <header> 
+        <h2>Tarefas</h2>
+    </header>
+
+     <nav>
+        <ul class="nav nav-pills mb-3 justify-content-center">
+          <li class="nav-item">
+              <a class="nav-link active" id="lista-tab" data-toggle="tab" href="#">Lista</a></li>
+          <li class="nav">
+              <a class="nav-link" id="execucao-tab" data-toggle="tab" href="#">Em execução</a></li>
+          <li class="nav">
+              <a class="nav-link" id="espera-tab" data-toggle="tab" href="#">Em espera</a></li>
+          <li class="nav">
+              <a class="nav-link" id="canceladas-tab" data-toggle="tab" href="#">Canceladas</a></li>
+          <li class="nav">
+              <a class="nav-link" id="finalizadas-tab" data-toggle="tab" href="#">Finalizadas</a></li>
+        </ul>
+      </nav>
+
+      <!--Painel de abas-->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="lista" role="tabpanel" aria-labelledby="lista-tab">Lista</div>
+        <div class="tab-pane fade show" id="execucao" role="tabpanel" aria-labelledby="execucao-tab">Em execução</div>
+        <div class="tab-pane fade show" id="espera" role="tabpanel" aria-labelledby="espera-tab">Em espera</div>
+        <div class="tab-pane fade show" id="canceladas" role="tabpanel" aria-labelledby="canceladas-tab">canceladas</div>
+        <div class="tab-pane fade show" id="finalizadas" role="tabpanel" aria-labelledby="finalizadas-tab">finalizadas</div>
+      </div>
+
+  
+      <!-- <script src="./LIB/bootstrap.min.js"></script>
+      <script src="./LIB/jquery-3.5.1.min.js"></script>
+      <script src="./home.js"></script> -->
+      
+
+
+</template>
+
+
+
+<!-- <div class="list-item {{checkedClass todo}} {{editingClass editing}}">
+  <label class="checkbox">
+    <input type="checkbox" checked={{todo.checked}} name="checked">
+    <span class="checkbox-custom"></span>
+  </label>
+
+  <input type="text" value="{{todo.text}}" placeholder="Task name">
+  <a class="js-delete-item delete-item" href="#">
+    <span class="icon-trash"></span>
+  </a>
+</div> -->
+<!-- 
+<template name="header">
+
+
+        {{> header}}
+        
+        {{#if loggedIn}} Welcome back! {{/if}}
+        {{#unless loggedIn}} Sign up! {{/unless}}
+        {{#each todos}} {{> todo}}{{/each}}
+        
+        
+    </template>
+-->

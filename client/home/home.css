@@ -1,0 +1,16 @@
+dl, ol, ul {
+    margin-top: 65px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(178.32deg, #2da6df 1.43%, rgba(241, 5, 231, 0) 125.77%);
+}
